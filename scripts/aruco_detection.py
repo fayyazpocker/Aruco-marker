@@ -1,4 +1,9 @@
 #!/usr/bin/env python
+'''
+ArUco ROS package for aruco detection.
+rvec and tvec (returned by aruco.estimatePoseSingleMarkers) are respectively the rotational and translational vector of ArUco markers
+
+'''
 import roslib
 import rospy
 import sys
